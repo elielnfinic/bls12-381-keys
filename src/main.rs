@@ -1,11 +1,6 @@
-use lambdaworks_math::{
-    cyclic_group::IsGroup, elliptic_curve::{
-        edwards::curves::bandersnatch::field, 
-        short_weierstrass::curves::bls12_381, traits::IsEllipticCurve
-    }, field::{
-        element::FieldElement, 
-        test_fields::u64_test_field::U64Field
-    }, unsigned_integer::element::U256
+use lambdaworks_math::elliptic_curve::{
+    short_weierstrass::curves::bls12_381, 
+    traits::IsEllipticCurve
 };
 
 use lambdaworks_math;
