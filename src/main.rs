@@ -21,5 +21,5 @@ fn main() {
     // I am doing K = k * G (K being the public key and k the private key)
     let (public_key_x, public_key_y) = (x * bls_private_key.clone(), y * bls_private_key);
 
-    println!("The private key coordonnates are {:?} and {:?}", public_key_x.to_hex(), public_key_y.to_hex());
+    println!("The public key coordonnates are {:?} and {:?}", public_key_x.to_hex(), public_key_y.to_hex());
 }
